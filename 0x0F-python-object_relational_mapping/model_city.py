@@ -3,7 +3,7 @@
 Module for SQLAlchemy City model.
 
 This module defines the City class, which is mapped to the 'cities' table
-in the MySQL database. 
+in the MySQL database.
 The City class inherits from SQLAlchemy's declarative base.
 """
 
