@@ -9,7 +9,7 @@ module.exports = class Rectangle {
       this.height = h;
     }
   }
-  
+
   print () {
     for (let i = 0; i < this.height; i++) {
       let rec = [];
@@ -19,13 +19,13 @@ module.exports = class Rectangle {
       console.log(rec);
     }
   }
-  
+
   rotate () {
     this.#temp = this.height;
     this.height = this.width;
     this.width = this.#temp;
   }
-  
+
   double () {
     this.width = this.width * 2;
     this.height = this.height * 2;
